@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contaner{
+    background: url(https://static.vecteezy.com/system/resources/previews/015/017/580/non_2x/cartoon-underwater-landscape-background-vector.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.fish-contaner{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.fish-contaner img{
+    height: 100px;
+    position: absolute;
+}
+.fish1{
+    top: 33%;
+    right: -10%;
+    transform: translateY(-50%);
+    animation: fishAnimation 15s linear infinite;
+}
+.fish2{
+    top: 20%;
+    left: -10%;
+    transform: translateY(-50%);
+    animation: fishAnimation2 17s linear infinite;
+}
+.fish3{
+    top: 50%;
+    left: -30%;
+    transform: translateY(-50%);
+    animation: fishAnimation2 20s linear infinite;
+}
+.fish4{
+    bottom: 25%;
+    right: -15%;
+    transform: translateY(-50%);
+    animation: fishAnimation 25s linear infinite;
+}
+@keyframes fishAnimation{
+    0%{
+    right: -10%;
+    }
+    100%{
+    right: 150%;
+    }
+}
+@keyframes fishAnimation2{
+    0%{
+        left: -10%;
+    }
+    100%{
+        left:150%;
+    }
+}
+.bubbles-contaner{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.bubbles-contaner img{
+    height: 120px;
+    position: absolute;
+}
+.bubbles1{
+    left: 16%;
+    animation: bubbleAnimation 7s linear infinite;
+}
+.bubbles2{
+    right: 20%;
+    animation: bubbleAnimation 10s linear infinite;
+}
+@keyframes bubbleAnimation{
+    0%{
+        top: 140%;
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        top: 20%;
+        opacity: 0;
+    }
+}

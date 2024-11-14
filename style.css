@@ -1,0 +1,45 @@
+body {
+  background-color: #000a1f;
+}
+.container{
+  margin:100px 0 0 200px;
+  width: 80%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px solid rgba(255, 255, 255, 0.684);
+  transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+  width: 25%;
+}
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+  text-align: center;
+  font-size: 50px;
+}
+.text1{
+  margin: 20px 0 0 640px;
+  color: #0ff;
+  font-size: 10px;
+}
+.text2{
+  margin: -35px 0 0 800px;
+  color: #0ff;
+  font-size: 10px;
+}
