@@ -50,9 +50,6 @@ header .container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url(https://github.com/dogiahuy13/bai-tap-ca-nhan/blob/main/images/background2.png?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .profile-img {
