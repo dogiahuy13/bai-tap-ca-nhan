@@ -50,6 +50,9 @@ header .container {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: url(images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .profile-img {
